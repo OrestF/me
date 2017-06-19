@@ -1,0 +1,11 @@
+@import "../../../styles.scss";
+
+.user-image {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 100%;
+  max-width: 300px;
+  max-height: 300px;
+  box-shadow: $shadow;
+}

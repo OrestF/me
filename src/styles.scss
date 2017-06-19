@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+	@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+	font-family: 'Ubuntu', sans-serif;
+}
+
+@font-face {
+	@import url('https://fonts.googleapis.com/css?family=Barrio');
+	font-family: 'Barrio', sans-serif;	
+}
+
+$shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+$blue: #106CC8;
+
+body {
+	background: -webkit-linear-gradient(top, #185694 0%, #106cc8 100%);
+	min-height: 100vh;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+}
+
+a {
+	&:hover, &:focus, &:active {
+		background: inherit !important;
+	}
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+	font-family: 'Barrio', sans-serif;
+	margin: 1em 0;
+}
+
+.flex-vertical {
+
+	@media(min-width: 768px) {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.devicon-angular-plain {
+	&:before {
+		content: "\e61d";
+		color: #DD0031;
+	}
+}
