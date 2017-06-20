@@ -8,7 +8,7 @@ import { InfoService } from '../../services/info.service';
   providers: [InfoService]
 })
 export class HomeComponent implements OnInit {
-  data: Object;
+  data: any;
   
   constructor(private infoService: InfoService) { }
 
