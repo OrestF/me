@@ -31,3 +31,6 @@ import { MdTooltipModule } from '@angular/material';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+//Deploy on github pages
+//sudo ngh --repo=https://06e4e741d0b56050f01a4b2f4f83fd58af5725eb@github.com/OrestF/OrestF.github.io.git --no-silent --branch=master

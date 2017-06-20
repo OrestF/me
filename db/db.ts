@@ -26,7 +26,7 @@ export const DATA = {
                 name: 'dynamicScrollShadow',
                 image: '/assets/img/dynamicScrollShadow.gif',
                 description: 'Add 3D effect to your blocks',
-                pageUrl: 'https://orestf.github.io/dynamicScrollShadow/',
+                pageUrl: 'https://orestf.github.io/dynamicScrollShadow',
                 repoUrl: 'https://github.com/OrestF/dynamicScrollShadow'
             }
         ]
