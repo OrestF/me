@@ -6,9 +6,22 @@ export const DATA = {
         name: 'Orest',
         surname: 'Falchuk',
         email: 'falchuko@gmail.com',
+        linkedin: 'https://www.linkedin.com/in/orest-falchuk/',
+        image: "https://source.unsplash.com/random/300x300",
         technologies: [
-            'HTML5', 'CSS3', 'JavaScript', 'jQuery', 'AngularJS', 'Angular', 'Ubuntu',
-            
+            'HTML5', 'CSS3', 'LESS', 'Sass', 'Bootstrap', 'JavaScript', 'CoffeeScript', 'TypeScript',
+            'jQuery', 'AngularJS', 'Angular', 'Drupal',
+            'Ruby', 'Rails', 'PostgreSQL', 'Ubuntu', 'Git', 'Github',
+            'Atom', 'VisualStudioCode', 'Trello', 'Chrome'            
+        ],
+        projects: [
+            {
+                name: 'dynamicScrollShadow',
+                image: 'https://source.unsplash.com/random/300x300',
+                description: 'Add 3D effect to your blocks', 
+                pageUrl: 'google.com',
+                repoUrl: 'https://github.com/OrestF/dynamicScrollShadow' 
+            }
         ]
     }
 }

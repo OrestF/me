@@ -5,7 +5,37 @@
   margin: auto;
   border-radius: 50%;
   width: 100%;
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 250px;
+  max-height: 250px;
   box-shadow: $shadow;
+}
+
+.map-image {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+.random-images-wrapper {
+  @media(min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.random-image {
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: $shadow;
+  margin: 0 auto 1em auto;
+}
+
+.contacts {
+  a {
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+    text-align: center;
+  }
 }
