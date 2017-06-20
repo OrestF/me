@@ -9,7 +9,7 @@ import { InfoService } from '../../services/info.service';
 })
 export class TechnologiesComponent implements OnInit {
   title: string = "Technologies";
-  subtitle: string = "Subtitle for technologies";
+  subtitle: string = "Here is a list of technologies which I use or used to work with";
   technologies: Array<string>;
 
   constructor(private infoService: InfoService) { }

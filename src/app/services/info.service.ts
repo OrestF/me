@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { DATA } from '../db/db';
+import { DATA } from '../../../db/db';
 
 @Injectable()
 export class InfoService {
