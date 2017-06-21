@@ -3,11 +3,47 @@
 .user-image {
   display: block;
   margin: auto;
-  border-radius: 50%;
-  width: 100%;
+  position: relative;
   max-width: 250px;
   max-height: 250px;
-  box-shadow: $shadow;
+
+  img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 100%;
+    box-shadow: $shadow;
+    backface-visibility: visible;
+    transition: 0.3s linear;
+  }
+
+  .back-side {
+    // content: 'Hi!';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    top: 0;
+    left: 0;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #185694;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    transition: 0.3s linear;
+  }
+
+  &:hover {
+    img {
+      transform: rotateY(180deg);      
+    }
+    .back-side {
+      transform: rotateY(0deg);
+    }
+  }
 
   @media(max-width: 768px) {
     max-width: 200px;
@@ -16,11 +52,11 @@
 
 .user-info {
   margin-top: -1.6em;
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 .user-name {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 .map-image {
@@ -28,6 +64,10 @@
   margin: auto;
   width: 100%;
   height: auto;
+
+  @media(min-width: 768px) {
+    margin-top: -5em;
+  }
 }
 
 .random-images-wrapper {

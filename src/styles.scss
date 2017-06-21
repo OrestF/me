@@ -13,10 +13,11 @@
 
 $shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
 $blue: #106CC8;
+$purple-red: #E91E63;
 
 
 ::selection {
-  background: #E91E63;
+  background: $purple-red;
 	//color: $blue; /* WebKit/Blink Browsers */
 }
 
@@ -39,8 +40,7 @@ body {
 		text-align: center;
 
 		li {
-			display: inline-block;
-			
+			display: inline-block;			
 		}
 	}
 }
@@ -122,6 +122,7 @@ div {
 		//transform: translate(-100%, 0);
 		transform: translate(-250%, 0);
 		animation: Powered 3s;
+		z-index: 2;
 		
 		.version {
 			transform: translate(-12px, -55%);

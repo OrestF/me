@@ -2,10 +2,9 @@ export const DATA = {
     app: {
         main_text: `
             I am a Web-developer from a beautifull city Ivano-Frankivsk which is situated in western Ukraine.
-            My practical knowledge includes a bunch of modern web-technologies and tools.
-            I have a good working experience of Agile development processes, Scrum and Kanban methodologies.
-            Good team player with strong self-motivation and good communication skills. I love to learn new technologies
-            and to solve complicated but interesting tasks.
+            My practical knowledge includes a bunch of modern web-technologies and tools: HTML, CSS, LESS, Sass, JavaScript, CoffeeScript, TypeScript, jQuery, AngularJS, Angular, Ruby on Rails and understanding of SQL and NoSQL databases. 
+            Have a good working experience of Agile development processes, Scrum and Kanban methodologies.
+            A good team player with strong self-motivation and good communication skills.
             Discover more about me and my skills on this website, Linkedin or directly via email. Contacts are below...
         `
     },
