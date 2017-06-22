@@ -10,7 +10,7 @@ import { InfoService } from '../../services/info.service';
 })
 export class ProjectsComponent implements OnInit {
   title: string = 'Projects';
-  subtitle: string = 'Here are my own projects wich I am developing outside of my work';
+  subtitle: string = 'Here are my own projects which I am developing outside of my work';
   projects: Array<Object>;
 
   constructor(private infoService: InfoService) { }

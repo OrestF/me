@@ -8,9 +8,9 @@ describe('TechnologiesComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TechnologiesComponent ]
+      declarations: [TechnologiesComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
@@ -21,5 +21,14 @@ describe('TechnologiesComponent', () => {
 
   it('should be created', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should has projects', () => {
+    expect(component.technologies.length).toBeGreaterThanOrEqual(1);
+  });
+
+  it('should has title', () => {
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('h1').textContent).toContain(component.title);
   });
 });
